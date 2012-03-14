@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>FileManager</title>
+        <title>FaxManager</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -40,7 +40,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </a>
-              <a class="brand" href="#">FileManager</a>
+              <a class="brand" href="#">FaxManager</a>
               <div class="nav-collapse">
                 <ul class="nav">
                   <li><a href="#">FAQ</a></li>
@@ -67,8 +67,8 @@
           <div class="row-fluid">
             <div class="span12">
                 <div class="hero-unit">
-                    <h1>FileManager</h1>
-                    <p>Una solución <strong>simple</strong> para tu manejo de archivos en línea.</p>
+                    <h1>FaxManager</h1>
+                    <p>Una solución <strong>simple</strong> para tu manejo de archivos de fax en línea.</p>
                     <p>Blah blah blah más descripción del proyecto y/o una foto.</p>                  
                 </div>
             </div>
@@ -77,10 +77,10 @@
           <div class="row-fluid">
             <div class="span12">
                 <div class="row-fluid">
-                    <div class="span2">
-                        <h2>Mis Archivos</h2>
+                    <div class="span3">
+                        <h2>Bandeja de Entrada</h2>
                     </div>
-                    <div class="span8">
+                    <div class="span7">
                         <ul class="breadcrumb">
                           <li>
                             <a href="#">Edmundo Fuentes</a> <span class="divider">/</span>
@@ -95,6 +95,104 @@
                         <a class="btn btn-large btn-success" href="#"><i class="icon-plus icon-white"></i>&nbsp; Agregar Archivo</a>
                     </div>
                 </div>
+                
+                <div class="row-fluid">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Dueño</th>
+                                <th>Nombre de Archivo</th>
+                                <th>Extensión</th>
+                                <th>Fecha de Modificación</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>23</td>
+                                <td>Edmundo Fuentes</td>
+                                <td>Proyecto 2do Parcial - Redes Industriales - Rev4.0</td>
+                                <td>.doc</td>
+                                <td>23 de febrero del 2012</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-mini btn-primary"><i class="icon-download-alt icon-white"></i>&nbsp; Descargar &nbsp;</button>
+                                        <button class="btn dropdown-toggle btn-mini btn-primary" data-toggle="dropdown" style="height:21px !important">
+                                          <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a href=#"><i class="icon-pencil"></i>&nbsp; Renombrar</a></li>
+                                          <li><a href=#"><i class="icon-folder-open"></i>&nbsp; Mover</a></li>
+                                          <li class="divider"></li>
+                                          <li><a href="#"><i class="icon-trash"></i>&nbsp; Eliminar</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>32</td>
+                                <td>Edmundo Fuentes</td>
+                                <td>Proyecto 3er Parcial - Redes Industriales - Rev1.2</td>
+                                <td>.doc</td>
+                                <td>23 de marzo del 2012</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-mini btn-primary"><i class="icon-download-alt icon-white"></i>&nbsp; Descargar &nbsp;</button>
+                                        <button class="btn dropdown-toggle btn-mini btn-primary" data-toggle="dropdown" style="height:21px !important">
+                                          <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a href=#"><i class="icon-pencil"></i>&nbsp; Renombrar</a></li>
+                                          <li><a href=#"><i class="icon-folder-open"></i>&nbsp; Mover</a></li>
+                                          <li class="divider"></li>
+                                          <li><a href="#"><i class="icon-trash"></i>&nbsp; Eliminar</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>35</td>
+                                <td>Edmundo Fuentes</td>
+                                <td>Proyecto 3er Parcial - Actuadores - FINAL</td>
+                                <td>.ppt</td>
+                                <td>15 de abril del 2012</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-mini btn-primary"><i class="icon-download-alt icon-white"></i>&nbsp; Descargar &nbsp;</button>
+                                        <button class="btn dropdown-toggle btn-mini btn-primary" data-toggle="dropdown" style="height:21px !important">
+                                          <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a href=#"><i class="icon-pencil"></i>&nbsp; Renombrar</a></li>
+                                          <li><a href=#"><i class="icon-folder-open"></i>&nbsp; Mover</a></li>
+                                          <li class="divider"></li>
+                                          <li><a href="#"><i class="icon-trash"></i>&nbsp; Eliminar</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <hr>
+                
+                <div class="row-fluid">
+                    <div class="span3">
+                        <h2>Archivos Recientes </h2>
+                    </div>
+                    <div class="span5">
+                        <h2><small style="font-size:11px !important">MOSTRANDO ÚNICAMENTE LOS 50 FAXES MÁS RECIENTES</small></h2>
+                    </div>
+                    <div class="span4">
+                        <form class="form-search pull-right">
+                            <input type="text" class="input-large search-query" placeholder="Búsqueda por Remitente">
+                            <button type="submit" class="btn"><i class="icon-search"></i>&nbsp; Buscar</button>
+                        </form>
+                    </div>
+                </div>
+                
                 <div class="row-fluid">
                     <table class="table table-striped">
                         <thead>
