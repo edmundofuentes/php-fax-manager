@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>FaxManager</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+    
+        <!-- Le styles -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/own.css" rel="stylesheet">
+        <style type="text/css">
+          body {
+            /*padding-top: 60px;*/
+            padding-bottom: 40px;
+          }
+          .sidebar-nav {
+            padding: 9px 0;
+          }
+        </style>
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="ico/favicon.ico">
+    </head>
+    
+    <body>
+
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container-fluid">
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <a class="brand" href="#">FaxManager</a>
+              <div class="nav-collapse">
+                <ul class="nav">
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Acerca De</a></li>
+                </ul>
+                <ul class="nav pull-right">
+                    <li><a href="#">Daniel Martínez A00615657</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
+    
+        <div class="container-fluid">
+          
+          <div class="row-fluid">
+            <div class="span12">
+                <div class="hero-unit">
+                    <h1>FaxManager</h1>
+                    <p>Una solución <strong>simple</strong> para tu manejo de archivos de fax en línea.</p>
+                    <p>Blah blah blah más descripción del proyecto y/o una foto.</p>                  
+                </div>
+            </div>
+          </div>
+            
+          <div class="row-fluid">
+            <div class="span12">
+                <div class="row-fluid">
+                    <div class="span3">
+                        <h2>Bandeja de Entrada</h2>
+                    </div>
+                    <div class="span7">
+                        <ul class="breadcrumb">
+                          <li class="active">C:\Documents and Settings\Faxes\1920483059\</li>
+                        </ul>
+                    </div>
+                    <div class="span2">
+                        <a class="btn btn-large btn-success" href="#"><i class="icon-plus icon-white"></i>&nbsp; Agregar Archivo</a>
+                    </div>
+                </div>
+                
+                <div class="row-fluid">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Nombre de Archivo</th>
+                                <th>Extensión</th>
+                                <th>Fecha de Modificación</th>
+                                <th>Remitente</th>
+                                <th>Tipo de Fax</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Proyecto 2do Parcial - Redes Industriales - Rev4.0</td>
+                                <td>.doc</td>
+                                <td>23-Feb-2012</td>
+                                <td><input type="text" placeholder="Remitente" class="input-medium"></td>
+                                <td><input type="text" placeholder="Tipo de Fax" class="input-medium"></td>
+                                <td>
+                                    <button class="btn btn-mini btn-primary"><i class="icon-share-alt icon-white"></i>&nbsp; Archivar &nbsp;</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <hr>
+                
+                <div class="row-fluid">
+                    <div class="span3">
+                        <h2>Archivos Recientes </h2>
+                    </div>
+                    <div class="span5">
+                        <h2><small style="font-size:11px !important">MOSTRANDO ÚNICAMENTE LOS 50 FAXES MÁS RECIENTES</small></h2>
+                    </div>
+                    <div class="span4">
+                        <form class="form-search pull-right">
+                            <input type="text" class="input-large search-query" placeholder="Búsqueda por Remitente">
+                            <button type="submit" class="btn"><i class="icon-search"></i>&nbsp; Buscar</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="row-fluid">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Remitente</th>
+                                <th>Nombre de Archivo</th>
+                                <th>Extensión</th>
+                                <th>Tipo de Fax</th>
+                                <th>Fecha de Modificación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>23</td>
+                                <td>Edmundo Fuentes</td>
+                                <td>Proyecto 2do Parcial - Redes Industriales - Rev4.0</td>
+                                <td>.doc</td>
+                                <td>Receta Médica</td>
+                                <td>23 de febrero del 2012</td>
+                            </tr>
+                            <tr>
+                                <td>32</td>
+                                <td>Edmundo Fuentes</td>
+                                <td>Proyecto 3er Parcial - Redes Industriales - Rev1.2</td>
+                                <td>.doc</td>
+                                <td>Documento Legal</td>
+                                <td>23 de marzo del 2012</td>
+                            </tr>
+                            <tr>
+                                <td>35</td>
+                                <td>Edmundo Fuentes</td>
+                                <td>Proyecto 3er Parcial - Actuadores - FINAL</td>
+                                <td>.ppt</td>
+                                <td>Presentación</td>
+                                <td>15 de abril del 2012</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+          </div><!--/row-fluid 'table' -->
+          
+    
+          <hr>
+    
+          <footer>
+            <p>&copy; 2012. <a href="http://www.edmundofuentes.com">Edmundo Fuentes</a>.</p>
+          </footer>
+    
+        </div><!--/.fluid-container-->
+    
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap-dropdown.js"></script>
+        
+        <script>
+        $(document).ready( function() {
+        $('.dropdown-toggle').dropdown();
+        });
+        </script>
+  </body>
